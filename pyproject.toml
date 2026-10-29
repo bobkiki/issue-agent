@@ -1,0 +1,10 @@
+[project]
+name = "issue-agent"
+version = "0.1.0"
+description = "A coding agent that fixes issues in small repos"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
